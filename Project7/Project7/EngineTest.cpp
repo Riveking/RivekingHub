@@ -13,7 +13,7 @@ int EngineTest::FISH_HEIGHT = 84;
 int WINAPI WinMain(HINSTANCE h_instance, HINSTANCE hPrevInstance,
 	PSTR szCmdLine, int iCmdShow)
 {
-	LPCTSTR WinTitle = L"李文齐的 T_Engine 测试程序";//游戏窗口标题
+	LPCTSTR WinTitle = L"李文齐的 GitHub 测试程序";//游戏窗口标题
 	EngineTest* test = new EngineTest(h_instance, WIN_CLASS, WinTitle,IDI_SHARK, IDI_SHARK, 800, 600);
 	T_Engine::pEngine = test;//将父类的静态指针指向构造好的子类
 	test->SetFrame(24);//设置画面刷新频率
